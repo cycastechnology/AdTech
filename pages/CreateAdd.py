@@ -15,7 +15,7 @@ def CreateAdvertisement():
 
     #st.title("Create Advertisement - Welcome " + retrieved_name)
 
-    save_folder = "uploaded_images//" + retrieved_name
+    save_folder = "uploaded_images/" + retrieved_name
     if not os.path.exists(save_folder):
         os.makedirs(save_folder ,exist_ok=True)
 
