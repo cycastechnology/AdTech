@@ -1,10 +1,5 @@
 import streamlit as st
 
-"""
-# Login Page
-# Login to the application to create file 
-# Set Loin Session
-"""
 
 def login_page():
     
